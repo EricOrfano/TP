@@ -49,13 +49,12 @@ h1 {
 .navList {
     display: flex;
     align-items: flex-end;
-    justify-content: center;
+    justify-content: right;
+    flex-direction: column;
 }
 
 .navItem {
-    display: inline;
-    margin: 2rem;
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 10px;
 }
 
