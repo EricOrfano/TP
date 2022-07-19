@@ -73,46 +73,6 @@ a.menu:hover {
     
 }
 
-/* Menu derecho*/
-
-.barra-derecha {
-    width: 20vw;
-    display: flex;
-    justify-content: center;
-    align-items:flex-end;
-    flex-direction: column;
-
-}
-
-a.logoface {
-    margin: 10px;
-
-}
-
-a.logoinsta {
-  margin: 10px;
-    
-}
-
-a.logowhatsapp {
-    margin: 10px;
-}
-
-.face {
-    width: 50px;
-    height: 50px;
-}
-
-.insta {
-    width: 50px;
-    height: 50px;
-}
-
-.whatsapp {
-    width: 50px;
-    height: 50px;
-}
-
 .mapa {
     width: 100px;
     height: 100px;
@@ -186,3 +146,46 @@ h3.subtitulo3 {
     padding-left: 3rem;
 }
 
+/* Pie de pagina */
+
+.pie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactos {
+    width: 20vw;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem;
+}
+
+a.logoface {
+    margin: 20px;
+
+}
+
+a.logoinsta {
+  margin: 20px;
+    
+}
+
+a.logowhatsapp {
+    margin: 20px;
+}
+
+.face {
+    width: 50px;
+    height: 50px;
+}
+
+.insta {
+    width: 50px;
+    height: 50px;
+}
+
+.whatsapp {
+    width: 50px;
+    height: 50px;
+}
