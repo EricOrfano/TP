@@ -1,0 +1,188 @@
+html {
+    font-family: 'Edu NSW ACT Foundation';
+    font-family: 'Roboto', sans-serif;     
+}
+
+/* HEADER */
+
+body {
+   background-image: url(/imagen/fondo.png);
+   background-size: cover;
+}
+
+header {
+    background-image: url('/imagen/opcion\ 3.jpeg');
+    background-size: cover;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo-titulo {
+    display: flex;
+    align-items: flex-start;
+}
+
+p {
+    font-family: "righteous" cursive;
+}
+
+h1 {
+    color: black;
+    font-family: "arial" cursive;
+}
+
+/* NAV */
+
+#logo {
+    width: 50px;
+    border-radius: 10px;
+}
+
+.nav {
+    width: 50vw;
+}
+
+.navList {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.navItem {
+    display: inline;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+a.menu {
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    
+}
+
+a.menu:hover {
+    background-color:aqua;
+    color: white;
+    border-radius: 30px;
+    
+}
+
+/* Menu derecho*/
+
+.barra-derecha {
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    flex-direction: column;
+
+}
+
+a.logoface {
+    margin: 10px;
+
+}
+
+a.logoinsta {
+  margin: 10px;
+    
+}
+
+a.logowhatsapp {
+    margin: 10px;
+}
+
+.face {
+    width: 50px;
+    height: 50px;
+}
+
+.insta {
+    width: 50px;
+    height: 50px;
+}
+
+.whatsapp {
+    width: 50px;
+    height: 50px;
+}
+
+.mapa {
+    width: 100px;
+    height: 100px;
+}
+
+.noticia {
+    width: 100px;
+    height: 100px;
+}
+
+/* Parrafo inicial */
+
+h3.subtitulo1 {
+    text-decoration:underline;
+    color:black;
+    margin-left: 5rem;
+}
+
+.container {
+    display: flex;
+}
+
+.playa1 {
+    display: flex;
+    align-items: flex-start;
+}
+
+p {
+    max-width: 100ch;
+    margin: 0px;
+    padding: 0 5rem;
+    height: 100%;
+    text-shadow: -4px 2px 2px #26CE23;
+    color: white;
+}
+
+#mardelplata {
+    width: 500px;
+    height: 300px;
+    padding-left: 3rem;
+}
+
+#ladoderecho {
+    width: 200px;
+    height: 500px;
+    
+}
+
+/* Parrafo centro */
+
+h3.subtitulo2 { 
+    text-align: right;
+    margin-right: 5rem;
+    text-decoration: underline;
+}
+
+#pinamar {
+    width: 500px;
+    height: 300px;
+    padding-left: 3rem;
+}
+
+h3.subtitulo3 {
+    margin-left: 5rem;
+    text-decoration: underline;
+}
+
+#piedras {
+    width: 500px;
+    height: 300px;
+    padding-left: 3rem;
+}
+
