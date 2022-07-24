@@ -1,0 +1,50 @@
+@import url('../pages/mapas.html');
+
+/* HOME */
+
+.retourner { 
+    display:flex;
+    justify-content: start;
+}
+
+.iconohome {
+    width: 50px;
+    transition-property: trasform color;
+    transition-duration: 1.5s;
+}
+
+.iconohome:hover {
+    transform: rotateY(180deg);
+}
+
+h1 {
+  font-family: fantasy;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); 
+  grid-template-rows: minmax(auto, 1fr);     
+  gap:1rem;
+}
+
+p{
+  max-width: 40ch;
+}
+
+.maps {
+  display: flex;
+  padding: 0.5rem 2rem;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: justify;
+  background-color: cornflowerblue;    
+  width: 20rem;
+  height: 30rem;  
+}
+
+.mapas {
+    width: 20rem;
+    height: 30rem;
+}
