@@ -2,6 +2,12 @@
 
 /* HOME */
 
+body {
+    background-image: url("../imagen/fondomapa.jpg");
+    background-size: cover;
+}
+
+
 .retourner { 
     display:flex;
     justify-content: start;
@@ -23,10 +29,10 @@ h1 {
 
 .container {
   display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); 
+  grid-template-rows: minmax(auto, 1fr); 
   gap:1rem;
-  grid-auto-flow: column;
   justify-content: center;
-  align-content: center;
 }
 
 p{
@@ -35,7 +41,7 @@ p{
 
 .maps {
   display: flex;
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 3rem;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
@@ -49,3 +55,13 @@ p{
     width: 20rem;
     height: 30rem;
 }
+
+/*@media screen and (max-width: 768px) and (min-width: 577px){
+    .encabezado {
+        flex-direction: column;
+    }
+
+    .container .maps {
+        flex-direction: column;
+    }
+}*/
