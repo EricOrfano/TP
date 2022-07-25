@@ -73,14 +73,13 @@ h2{
 
 .container1 {
     display: flex;
-    margin-left: 5rem;
 }
 
 .playa1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    margin-left: 5rem;    
 }
 
 h3.subtitulo1 {
@@ -115,7 +114,6 @@ h3.subtitulo1 {
 
 .container2 {
     display: flex;
-    margin-left: 5rem;
 }
 
 .playa2 {
@@ -154,7 +152,6 @@ h3.subtitulo2 {
 
 .container3 {
     display: flex;
-    margin-left: 5rem;
 }
 
 .playa3 {
@@ -243,10 +240,14 @@ h3.subtitulo3 {
 
 /* MEDIA QUERIES */
 /* TABLET */
-@media screen and (max-width: 768px) and (min-width: 577px){   
+@media screen and (max-width: 820px) and (min-width: 577px){   
     .header-container{
         flex-direction: column;
 
+    }
+
+    .logo-titulo h1 {
+        text-align: center;
     }
 
     .navList {
@@ -258,11 +259,26 @@ h3.subtitulo3 {
         flex-direction: column;
     }
 
+    h3.subtitulo1{
+        text-align: center;
+        margin-left: 0;
+    }
+
+    h3.subtitulo2{
+        text-align: center;
+        margin-right: 0;
+    }
+
+    h3.subtitulo3{
+        text-align: center;
+        margin-left: 0;
+    }
+
     .playa1 {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        
+        margin-left: 0;
     }
 
     .playa2 {
@@ -271,25 +287,87 @@ h3.subtitulo3 {
         justify-content: center;
     }
 
-    #pinamar {
-        margin-left: 5rem;
-    }
 
     .playa3 {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-    }
-
-    #piedras {
-        margin-right: 5rem;
+        margin-left: 0;
     }
 
 }
 
 /* CELULAR */
 
-@media screen and (max-width: 576px){
-    
-}
+@media screen and (max-width: 576px) and (min-width: 360px){
+    .header-container{
+        flex-direction: column;
+    }
 
+    .logo-titulo h1 {
+        text-align: center;
+    }
+
+    .navList {
+        display: flex;
+        flex-direction: row;
+    }
+    .containertitulos{
+        flex-direction: column;
+    }
+
+    h3.subtitulo1{
+        text-align: center;
+        margin-left: 0;
+    }
+
+    h3.subtitulo2{
+        text-align: center;
+        margin-right: 0;
+    }
+  
+    h3.subtitulo3{
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .playa1 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .playa2 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .playa3 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    #mardelplata {
+        width: 350px;
+        height: 300px;
+    }
+
+    #pinamar {
+        width: 350px;
+        height: 300px;
+    }
+
+    #piedras {
+        width: 350px;
+        height: 300px;
+    }
+
+    .contactos {
+       justify-content: center;
+    }
+}
